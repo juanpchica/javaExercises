@@ -18,7 +18,9 @@ public class Exercise1 {
             System.out.print((i+1)+".Digite el nombre:");
             estudiantes[i] = new Scanner(System.in).nextLine();
         }
+
         for(int i=0;i<numeroEstudiantes;i++){
+            System.out.println("Digite ahora las notas del estudiante "+estudiantes[i]+": ");
             for(int j=0;j<3;j++){
                 matriz[j][i] = new Scanner(System.in).nextFloat();
 
